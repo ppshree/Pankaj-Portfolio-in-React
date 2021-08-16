@@ -1,0 +1,147 @@
+.ProjectPageWrapper {
+  padding: 10% 5%;
+}
+
+.qualificationWrapper {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.grey_line_div {
+  width: 12px;
+  height: 3px;
+  background-color: var(--grey_color_text);
+  margin-right: 12px;
+}
+
+.qualificationWrapper h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--grey_color_text);
+}
+
+.projectDivWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.projectDiv {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 0 8px black;
+  background-color: var(--secondary_color);
+  margin: 0 10px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: left;
+}
+
+.projectDivLeft {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  border-top-left-radius: 10px;
+}
+.projectDivLeft img {
+  width: 100%;
+  border-top-left-radius: 10px;
+}
+
+.projectDivRight {
+  width: 60%;
+  padding: 8px;
+  padding-left: 15px;
+}
+
+.projectDivRight h2 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.projectDivRight h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: var(--grey_color_text);
+}
+
+.projectLinksWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.projectLinksWrapper a {
+  text-decoration: underline;
+  display: inline-block;
+  color: var(--yellow_color);
+  font-size: 14px;
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+}
+
+.projectLinksWrapper i {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+@media (min-width: 480px) {
+  .ProjectPageWrapper {
+    padding: 5% 5%;
+  }
+  .projectDiv {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  .projectDivWrapper {
+    justify-content: space-around;
+  }
+  .projectLinksWrapper {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 770px) {
+  .ProjectPageWrapper {
+    padding: 5% 5%;
+  }
+  .projectDiv {
+    width: 31%;
+    margin-bottom: 30px;
+    transition: all 0.2s;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .projectDiv:hover {
+    transform: translateY(-5px);
+  }
+  .projectDivWrapper {
+    justify-content: space-evenly;
+  }
+  .projectLinksWrapper {
+    margin-top: 20px;
+  }
+  .projectLinksWrapper a {
+    transition: all 0.1s;
+  }
+  .projectLinksWrapper a:hover {
+    transform: scale(1.05, 1.05);
+  }
+  .projectLinksWrapper a:nth-of-type(2) {
+    margin-top: 15px;
+  }
+}

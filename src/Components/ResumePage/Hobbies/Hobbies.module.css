@@ -1,0 +1,48 @@
+.introTextWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+  color: var(--grey_color_text);
+}
+
+.grey_line_div {
+  width: 12px;
+  height: 3px;
+  background-color: var(--grey_color_text);
+  margin-right: 12px;
+}
+
+.introTextWrapper h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.hobbiesWrapper {
+  padding: 0 5%;
+  margin-top: 20px;
+}
+
+.hobbiesWrapper li {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 480px) {
+  .hobbiesWrapper {
+    padding: 0 2%;
+  }
+  .hobbiesWrapper li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hobbiesWrapper {
+    padding: 0 2%;
+  }
+  .hobbiesWrapper li {
+    margin-bottom: 10px;
+  }
+}

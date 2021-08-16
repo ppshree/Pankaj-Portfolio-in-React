@@ -1,0 +1,119 @@
+.secondPageWrapper {
+  background-color: var(--secondary_color);
+  padding: 10% 5%;
+  text-align: left;
+  color: white;
+}
+
+.contactTextWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--grey_color_text);
+}
+
+.greyLine {
+  width: 12px;
+  height: 3px;
+  background-color: var(--grey_color_text);
+  margin-right: 12px;
+}
+
+.contactTextWrapper h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.queryTextWrapper {
+  margin-top: 20px;
+}
+
+.queryTextWrapper h2 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.queryDescriptionTextWrapper {
+  margin-top: 20px;
+}
+.queryDescriptionTextWrapper h3 {
+  color: var(--grey_color_text);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.mailTextWrapper {
+  margin-top: 20px;
+}
+
+.mailTextWrapper a {
+  color: var(--yellow_color);
+  text-decoration: underline 2px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+
+.rightDiv {
+  margin-top: 80px;
+}
+
+.rightMessageWrapper h3 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.meassageDescriptionWrapper {
+  margin-top: 20px;
+}
+.meassageDescriptionWrapper h3 {
+  color: var(--grey_color_text);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.experienceTextWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.projectTextWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.projectTextWrapper:first-of-type {
+  margin-left: 0px;
+}
+
+.projectTextWrapper h2 {
+  color: var(--yellow_color);
+  font-size: 42px;
+}
+
+.projectTextWrapper > div {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.projectTextWrapper > div > h3 {
+  font-size: 14px;
+}
+
+@media (min-width: 480px) {
+  .secondPageWrapper {
+    padding: 5% 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .secondPageWrapper {
+    padding: 5% 5%;
+  }
+}

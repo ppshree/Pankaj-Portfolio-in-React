@@ -1,0 +1,104 @@
+.lastPageWrapper {
+  background-color: var(--primary_color);
+  color: white;
+  padding: 10% 5%;
+  text-align: left;
+}
+
+.leftDivWrapper {
+}
+
+.projectTitleWrapper h3 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.projectDescription {
+  margin-top: 20px;
+}
+
+.projectDescription p {
+  color: var(--grey_color_text);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.mailWrapper {
+  margin-top: 20px;
+}
+
+.mailWrapper a {
+  font-size: 20px;
+  word-wrap: break-word;
+  color: var(--yellow_color);
+  text-decoration: underline 2px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.estimateProjectTitleWrapper {
+  margin-top: 80px;
+}
+
+.estimateProjectTitleWrapper h3 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.formWrapper {
+  margin-top: 20px;
+}
+
+.formActual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.formContent {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.formContent p {
+  font-weight: 600;
+}
+
+.formContent input {
+  width: 100%;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid var(--grey_color_text);
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.submitBtn {
+  width: 100px;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+  border: none;
+  background-color: var(--yellow_color);
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+@media (min-width: 480px) {
+  .lastPageWrapper {
+    padding: 5% 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .lastPageWrapper {
+    padding: 5% 5%;
+  }
+}

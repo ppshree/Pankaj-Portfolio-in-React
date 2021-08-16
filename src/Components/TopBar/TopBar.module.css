@@ -1,0 +1,165 @@
+.topbar_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding: 3% 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--primary_color);
+  box-shadow: 0 0 12px black;
+  z-index: 100;
+}
+
+.topbar_wrapper i {
+  font-size: 28px;
+  color: var(--yellow_color);
+}
+
+.homeIconWrapper {
+  display: none;
+}
+
+.left-div {
+}
+
+.right_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navBarWrapper {
+  width: 50%;
+  height: 92vh;
+  position: fixed;
+  top: 8vh;
+  right: 0;
+  background-color: var(--secondary_color);
+  transform: translateX(100%);
+  transition: all 0.6s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  z-index: 200;
+}
+
+.navBarWrapperShow {
+  width: 50%;
+  height: 92vh;
+  position: fixed;
+  top: 8vh;
+  right: 0;
+  background-color: var(--secondary_color);
+  transform: translateX(0%);
+  transition: all 0.6s;
+  box-shadow: 0 2px 12px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  z-index: 200;
+}
+
+.routerLinks {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.routerLinks:first-of-type {
+  margin-top: 0;
+}
+
+.routerLinks i {
+  font-size: 18px;
+  color: var(--grey_color_text);
+  margin-right: 10px;
+}
+
+.routerLinks span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.horizontalNavbarWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .topbar_wrapper {
+    padding: 0 4%;
+    justify-content: space-between;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+
+  .horizontalNavbarWrapper {
+    display: flex;
+  }
+  .routerLinks {
+    margin: 0;
+    margin-right: 15px;
+  }
+  .routerLinks i {
+    font-size: 16px;
+    color: var(--grey_color_text);
+    margin-right: 8px;
+  }
+
+  .routerLinks span {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .homeIconWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburgerWrapper {
+    display: none;
+  }
+  .horizontalNavbarWrapper {
+    display: flex;
+  }
+  .routerLinks {
+    margin: 0;
+    margin-right: 15px;
+    transition: all 0.2s;
+  }
+  .routerLinks i {
+    font-size: 16px;
+    color: var(--grey_color_text);
+    margin-right: 8px;
+  }
+
+  .routerLinks:hover {
+    transform: scale(1.1, 1.1);
+    color: var(--yellow_color);
+  }
+
+  .routerLinks span {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .homeIconWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

@@ -1,0 +1,175 @@
+.resumePageWrapper {
+  padding: 10% 5%;
+  margin-top: 50px;
+  text-align: left;
+  color: white;
+}
+
+.nameHeadingWrapper h1 {
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.yellow_line_div {
+  width: 10%;
+  height: 5px;
+  background-color: var(--yellow_color);
+  border-radius: 2.5px;
+  margin-top: 15px;
+}
+
+.iconWrapper {
+  margin-top: 30px;
+}
+
+.anchorTags {
+  color: white;
+  text-decoration: none;
+}
+
+.iconWrapper i {
+  margin-right: 15px;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+
+.anchorTags:hover i {
+  transform: scale(1.1, 1.1);
+  color: var(--yellow_color);
+}
+
+.qualificationWrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.grey_line_div {
+  width: 12px;
+  height: 3px;
+  background-color: var(--grey_color_text);
+  margin-right: 12px;
+}
+
+.qualificationWrapper h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--grey_color_text);
+}
+
+.educationDetailsWrapper {
+  margin-top: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.verticleLine {
+  width: 2px;
+  height: 320px;
+  background-color: var(--yellow_color);
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  z-index: -10;
+}
+
+.edyodaWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.edyodaWrapper h2 {
+  font-size: 26px;
+  background-color: var(--primary_color);
+}
+
+.edyodaWrapper > div {
+  margin-left: 15px;
+}
+
+.bachelorWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.bachelorWrapper h2 {
+  font-size: 26px;
+  background-color: var(--primary_color);
+}
+
+.bachelorWrapper > div {
+  margin-left: 15px;
+}
+
+.bachelorText {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.branchText {
+  font-size: 16px;
+  color: var(--grey_color_text);
+}
+
+.secondaryWrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.secondaryWrapper h2 {
+  font-size: 26px;
+
+  background-color: var(--primary_color);
+}
+
+.secondaryWrapper > div {
+  margin-left: 15px;
+}
+
+@media (min-width: 480px) {
+  .resumePageWrapper {
+    padding: 5% 5%;
+  }
+  .yellow_line_div {
+    width: 4%;
+  }
+  .qualificationWrapper {
+    margin-top: 60px;
+  }
+  .verticleLine {
+    height: 300px;
+  }
+  .bachelorWrapper {
+    margin-top: 30px;
+  }
+  .secondaryWrapper {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .resumePageWrapper {
+    padding: 5% 5%;
+  }
+  .yellow_line_div {
+    width: 4%;
+  }
+  .qualificationWrapper {
+    margin-top: 60px;
+  }
+  .verticleLine {
+    height: 300px;
+  }
+  .bachelorWrapper {
+    margin-top: 30px;
+  }
+  .secondaryWrapper {
+    margin-top: 30px;
+  }
+}

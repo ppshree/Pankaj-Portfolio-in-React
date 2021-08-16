@@ -1,0 +1,56 @@
+.skillsPageWrapper {
+  text-align: left;
+  color: white;
+  margin-top: 70px;
+}
+
+.qualificationWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.grey_line_div {
+  width: 12px;
+  height: 3px;
+  background-color: var(--grey_color_text);
+  margin-right: 12px;
+}
+
+.qualificationWrapper h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--grey_color_text);
+}
+
+.skillsWrapper {
+  margin-top: 20px;
+}
+
+.pLanguagesWrapper {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.skillsWrapper h3 {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.pLanguagesBox {
+  width: auto;
+  padding: 5px 10px;
+  background-color: var(--secondary_color);
+  color: var(--yellow_color);
+  font-size: 16px;
+  margin: 10px 10px;
+  box-shadow: 0 0 5px black;
+}
+
+.databaseWrapper {
+  margin-top: 20px;
+}
